@@ -1,4 +1,5 @@
 import Animal.Cachorro;
+import Animal.Gato;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -12,6 +13,14 @@ public class App {
         dog.comer();
         dog.latir();
         
+        Gato cat = new Gato("Garfield", 40, 90.54);
+
+        System.out.println(cat.getName());
+        System.out.println(cat.getAge());
+        System.out.println(cat.getWeight());
+        cat.beber();
+        cat.comer();
+        cat.miar();
 
     }
 }
